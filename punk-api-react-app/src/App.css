@@ -1,0 +1,22 @@
+.App {
+    display: flex;  
+    align-items: center;   
+    height: 95vh;
+    background-color: #8e44ad;
+    
+}
+
+.list {
+    height: 50vh;
+    display: flex;    
+    overflow-x: auto;
+    align-content: stretch;
+
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+
+
